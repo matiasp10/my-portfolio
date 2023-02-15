@@ -29,18 +29,18 @@ function Menu() {
           <li className="" key={label}>
             {route === path ? (
               <Link
-                className="relative block px-3 py-2 text-emerald-500 transition hover:text-emerald-500 dark:text-emerald-400 dark:hover:text-emerald-400"
+                className="relative block px-3 py-2 text-emerald-500 transition hover:text-emerald-500 dark:text-emerald-400 dark:hover:text-emerald-400 text-2xl"
                 href={route}
               >
                 <motion.span
                   layoutId="underline"
-                  className="absolute left-0 top-full z-50 block h-[2px] w-full rounded-sm bg-emerald-500 dark:h-[2px]"
+                  className="absolute left-0 top-full z-50 block h-[2px] w-full rounded-sm bg-emerald-500 dark:h-[2px] "
                 />
                 {label}
               </Link>
             ) : (
               <Link
-                className="relative block px-3 py-2 text-zinc-900 transition hover:text-emerald-500 dark:text-white dark:hover:text-emerald-400"
+                className="relative block px-3 py-2 text-zinc-900 transition hover:text-emerald-500 dark:text-white dark:hover:text-emerald-400 text-2xl"
                 href={route}
               >
                 {label}
