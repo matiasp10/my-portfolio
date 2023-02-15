@@ -40,7 +40,7 @@ function Menu() {
               </Link>
             ) : (
               <Link
-                className="relative block px-3 py-2 text-zinc-900 transition hover:text-emerald-500 dark:text-white dark:hover:text-emerald-400 text-2xl"
+                className="relative block px-3 py-2 text-dark transition hover:text-emerald-500 dark:text-white dark:hover:text-emerald-400 text-2xl"
                 href={route}
               >
                 {label}

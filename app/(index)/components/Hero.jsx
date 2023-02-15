@@ -15,10 +15,10 @@ function Hero() {
             className="h-24 w-24 object-cover md:h-32 md:w-32"
           />
         </div>
-        <h1 className="text-[32px] font-bold leading-10 tracking-tighter text-zinc-100 dark:text-zinc-100 md:text-5xl md:leading-[54px]">
+        <h1 className="text-[32px] font-bold leading-10 tracking-tighter text-black dark:text-zinc-100 md:text-5xl md:leading-[54px]">
           I’m Matias Petenatti. <br /> Frontend developer.
         </h1>
-        <p className="text-base font-normal leading-7 text-zinc-100 dark:text-zinc-400 md:pr-10 md:text-lg">
+        <p className="text-base font-normal leading-7 text-black dark:text-zinc-400 md:pr-10 md:text-lg">
           I am a frontend developer with 2+ years of experience. I am passionate
           about creating engaging and user-friendly web experiences, and
           I&apos;m always looking for new challenges and opportunities to grow
@@ -28,7 +28,7 @@ function Hero() {
           interested in the world of frontend development, I hope that
           you&apos;ll find something here that inspires you.
         </p>
-        <p className="text-base font-normal leading-7 text-zinc-100 dark:text-zinc-400 md:pr-10 md:text-lg">
+        <p className="text-base font-normal leading-7 text-black dark:text-zinc-400 md:pr-10 md:text-lg">
           As a frontend developer, I am experienced in a wide range of
           technologies and tools, including HTML, CSS, JavaScript, React and
           more. I am also committed to staying up-to-date with the latest trends
